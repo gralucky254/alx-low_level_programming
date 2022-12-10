@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - prints the last digit of random
+ * number stored in the variables n
  * Return: Always 0 (success)
  */
 int main(void)
@@ -20,7 +21,7 @@ int main(void)
 	{
 		printf("and is 0\n");
 	}
-	else if (n % 10 < 6 && n != 0)
+	else if (n % 10 < 6 && n % 10 != 0)
 	{
 		printf("and is less than 6 and not 0\n");
 	}
