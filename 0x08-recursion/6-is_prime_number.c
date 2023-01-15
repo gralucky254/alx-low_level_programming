@@ -1,10 +1,11 @@
 #include "main.h"
+int actual_prime(int n, int i);
 /**
  * is_prime_number - Entry point
  * @n: given value
  * Return: Always 0.
  */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
